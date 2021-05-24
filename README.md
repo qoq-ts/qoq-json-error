@@ -1,4 +1,5 @@
 # qoq-json-error
+
 JSON error support for qoq based on [koa-json-error](https://github.com/koajs/json-error)
 
 # Installation
@@ -8,6 +9,7 @@ yarn add qoq-json-error
 ```
 
 # Usage
+
 ```typescript
 import { WebSlotManager } from 'qoq';
 import { JsonError } from 'qoq-json-error';
@@ -28,4 +30,5 @@ export webSlots = WebSlotManager
 ```
 
 # Options
+
 @see [koa-json-error](https://github.com/koajs/json-error#koa-json-error)
